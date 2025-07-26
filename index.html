@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        align-items: center;
+        background-color: #17C8CA;
+        color: #9B2130;
+      }
+
+      h1 {
+        color: white;
+      }
+
+      .boxes {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box {
+        background-color: white;
+        border: 2px solid #9B2130;
+        padding: 1rem;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      img {
+        width: 200px;
+      }
+
+      .htmlenergy {
+        position: absolute;
+        right: 68px;
+        bottom: 70px;
+        color: #70f202;
+        font-size: 72px;
+        filter: blur(1px);
+      }
+
+      @media (width > 800px) {
+        .boxes {
+          flex-direction: row;
+        } 
+
+        .boxes > *:last-child {
+          margin-left: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="center">
+        <h1>HTML Day 2025 臺北</h1>
+        <div style="position:relative; display: inline-block">  
+          <img src="tudigong.png"></img>
+          <span class="htmlenergy">✺</span>
+        </div>
+
+      </div>
+      <div class="boxes">
+        <div class="box">
+          <h2>HTML Day是什麼？</h2>
+          <p></p>
+          <h2>意見帶什麼？</h2>
+          <p>筆電，防曬，好友，野餐墊</p>
+          <h2>什麼時候？</h2>
+          <p>2025年8月2日 17:30</p>
+          <h2>活動在哪裡？</h2>
+          <p>大安森林公園靠近籃球場，若下雨搬去捷運站地下大廳.</p>
+          <h2>誰在辦活動？</h2>
+          <p>bdon + alice</p>
+          <h2>我不在台北，我附近有活動嗎？</h2>
+          <p>The <a href="https://html.energy">html.energy網頁</a> 有目前所有的城市， 歡迎自己辦活動！</p>
+        </div>
+        <div class="box">
+          <h2>What is this?</h2>
+          <p>A yearly event where we write HTML together in a park.</p>
+          <h2>What should I bring?</h2>
+          <p>A laptop, sunscreen, and friends. Picnic blankets are nice too!</p>
+          <h2>When is it happening?</h2>
+          <p>August 2, 2025 at 5:30PM</p>
+          <h2>Where is it happening?</h2>
+          <p>Da'An Forest Park, northeast corner, east of the basketball courts. If it rains, we'll move to the underground area of the MRT station.</p>
+          <h2>Who is running this?</h2>
+          <p>Brandon and Alice</p>
+          <h2>I'm not in Taipei, is there an event in my city?</h2>
+          <p>The <a href="https://html.energy">HTML energy event page</a> has dozens of cities around the world. if yours isn't listed, organize your own!</p>
+        </div>
+      </div>
+    </div>
+  </p>
+  </body>
+</html>
